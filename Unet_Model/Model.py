@@ -18,4 +18,3 @@ class polygonDataset(Dataset):
                 Image.show()
 
 data = polygonDataset('training\data.json', size=(256, 256))
-
